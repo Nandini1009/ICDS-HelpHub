@@ -253,6 +253,7 @@ video {
 button span {
     line-height: 40px;
     padding: 10px;
+    font-size: 14px;
 }
 .container {
     padding: 50px;
