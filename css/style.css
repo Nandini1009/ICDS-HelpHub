@@ -137,8 +137,8 @@
     background: #fff;
 }
 #modules img {
-    width: 160px;
-    height: 150px;
+    width: 120px;
+    height: 100px;
     align-self: center;
 }
 #modules img:hover {
@@ -151,7 +151,7 @@
 #modules p {
     justify-self: center;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 15px;
     color: #5c5959;
 }
 #modules .row {
@@ -244,5 +244,16 @@
     width: -webkit-fill-available !important;
 }
 video {
-    width: 100%;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+}
+.offcanvas-body {
+    overflow: hidden;
+}
+button span {
+    line-height: 40px;
+    padding: 10px;
+}
+.container {
+    padding: 50px;
 }
